@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    font-family: "Jost Variable";
+    min-height: 100%;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+  }
+
+  .textHeader {
+    @apply cursor-pointer hover:text-2xl transition-all;
+  }
+
+  .textFocus {
+    @apply text-2xl text-[#F7C80E] font-bold
+  }
+
+  .subTitles {
+    @apply text-xl my-4 font-medium text-[#F7C80E]
+  }
+}
