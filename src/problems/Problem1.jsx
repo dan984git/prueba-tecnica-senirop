@@ -35,7 +35,7 @@ const Problem1 = () => {
       </p>
 
       <h3 className="subTitles">Solution:</h3>
-      <ul className="my-4 gap-3 grid grid-flow-row grid-cols-4 lg:grid-flow-col lg:grid-rows-10 ">
+      <ul className="my-4 gap-3 grid grid-cols-4 grid-flow-row lg:grid-cols-10">
         {numbers.length > 0 &&
           numbers.map((n, i) => {
             return (

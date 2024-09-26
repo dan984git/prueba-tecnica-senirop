@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className="w-11/12 md:w-7/12 flex justify-center items-center flex-col m-auto p-6">
+      <div className="w-11/12 md:w-8/12 flex justify-center items-center flex-col m-auto p-6">
         <img src={SeniropLogo} className="w-28" alt="cart icon" />
         <h1 className="text-3xl my-6 font-bold">
           Prueba Técnica - Daniel Burbano - Senirop
