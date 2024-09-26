@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className="w-7/12 flex justify-center items-center flex-col m-auto p-6">
+      <div className="w-11/12 md:w-7/12 flex justify-center items-center flex-col m-auto p-6">
         <img src={SeniropLogo} className="w-28" alt="cart icon" />
         <h1 className="text-3xl my-6 font-bold">
           Prueba Técnica - Daniel Burbano - Senirop
@@ -15,7 +15,7 @@ function App() {
         <div className="w-full flex flex-row justify-between">
           <h2
             className={`${
-              problem == "problem1" ? "textFocus" : "text-xl"
+              problem == "problem1" ? "textFocus" : "text-lg sm:text-xl"
             } textHeader`}
             onClick={() => setProblem("problem1")}
           >
@@ -24,7 +24,7 @@ function App() {
           <span className="text-2xl">|</span>
           <h2
             className={`${
-              problem == "problem2" ? "textFocus" : "text-xl"
+              problem == "problem2" ? "textFocus" : "text-lg sm:text-xl"
             } textHeader`}
             onClick={() => setProblem("problem2")}
           >

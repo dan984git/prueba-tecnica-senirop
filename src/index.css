@@ -11,11 +11,11 @@
   }
 
   .textHeader {
-    @apply cursor-pointer hover:text-2xl transition-all;
+    @apply cursor-pointer text-lg sm:hover:text-2xl transition-all;
   }
 
   .textFocus {
-    @apply text-2xl text-[#F7C80E] font-bold
+    @apply text-lg sm:text-2xl text-[#F7C80E] font-bold
   }
 
   .subTitles {
