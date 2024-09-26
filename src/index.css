@@ -11,7 +11,7 @@
   }
 
   .textHeader {
-    @apply cursor-pointer text-lg sm:hover:text-2xl transition-all;
+    @apply cursor-pointer text-lg sm:hover:text-2xl lg:transition-all;
   }
 
   .textFocus {

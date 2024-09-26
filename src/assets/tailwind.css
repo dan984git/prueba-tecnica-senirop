@@ -565,15 +565,20 @@ video {
   cursor: pointer;
   font-size: 1.125rem;
   line-height: 1.75rem;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
 }
 
 @media (min-width: 640px) {
   .textHeader:hover {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .textHeader {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
   }
 }
 
@@ -747,10 +752,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:grid-flow-row {
-    grid-auto-flow: row;
-  }
-
   .lg\:grid-cols-10 {
     grid-template-columns: repeat(10, minmax(0, 1fr));
   }
